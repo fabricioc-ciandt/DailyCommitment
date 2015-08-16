@@ -1,0 +1,104 @@
+<!doctype html>
+<!--
+ This page is shown when the extension button is clicked, because the
+ "browser_action" field in manifest.json contains the "default_popup" key with
+ value "popup.html".
+ -->
+<html>
+<head>
+    <title>Spartans Daily Commitment</title>
+    <style>
+        body {
+            font-family: "Verdana";
+            font-size: 80%;
+            background-color: #005180;
+            color: #fff;
+        }
+        span{ margin-top: 20px; }
+
+
+        table {
+            border-collapse: collapse;
+            text-align: center;
+            margin: 40px 10px;
+        }
+
+        table thead { font-weight: bold; }
+
+        table, td, th {
+            border: 1px solid black;
+            padding: 8px;
+        }
+        table td a { color: #fff; }
+
+        input[type=text] { width:50px; }
+        input[type=text].bigger { width:180px; }
+        input[type=date] { width:127px; }
+
+        .late-commitment { border-left: thick double red; }
+        .done-commitment { border-left: thick double #22ff00; }
+
+        .team-title { 
+            float: left; 
+            margin-top: 2%;
+        }
+
+        #team-selection{
+            margin-top: 2%;
+            float: right;
+            width: 200px;
+            height: 25px;
+        }
+        .clear { 
+            clear: both; 
+        }
+    </style>
+    <!--
+      - JavaScript and HTML must be in separate files: see our Content Security
+      - Policy documentation[1] for details and explanation.
+      -
+      - [1]: https://developer.chrome.com/extensions/contentSecurityPolicy
+     -->
+    <script src="jquery.min.js"></script>
+    <script src="popup.js"></script>
+</head>
+<body>
+    <div id="container">
+        <br/>
+        <div id="team-container">
+            &nbsp;
+            <h2 id="team-title" class="team-title"></h2>
+            <h2 id="title" class="team-title">
+                &nbsp;Daily Commitment
+            </h2>
+            <select id="team-selection">
+                <option value="Spartans">Spartans</option>
+                <option value="Vikings">Vikings</option>
+                <option value="Gladiators">Gladiators</option>
+                <option value="Pirates">Pirates</option>
+                <option value="Ninjas">Ninjas</option>
+                <option value="Titans">Titans</option>
+            </select>
+        </div>
+
+        <div class="clear"></div>
+
+        <table id="commitments">
+            <thead>
+                <tr>
+                    <td>Assignee</td>
+                    <td>Date</td>
+                    <td>Story</td>
+                    <td>Task</td>
+                    <td>Description</td>
+                    <td>Commitment</td>
+                    <td> - </td>
+                </tr>
+            </thead>
+            <tbody>
+            </tbody>
+        </table>
+    </div>
+    <span id="error"></span>
+</body>
+</html>

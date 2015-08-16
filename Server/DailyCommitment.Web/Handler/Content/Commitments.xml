@@ -1,0 +1,119 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Teams>
+  <Team name="Spartans">
+    <Member Assignee="Madruga">
+      <Date>2015-08-17</Date>
+      <Story>17287</Story>
+      <Task>17287</Task>
+      <Description></Description>
+      <Commitment>EOM</Commitment>
+      <Status>Done</Status>
+    </Member>
+    <Member Assignee="Mulio">
+      <Date>2015-08-13</Date>
+      <Story>17287</Story>
+      <Task>17287</Task>
+      <Description></Description>
+      <Commitment>EOM</Commitment>
+      <Status>In Progress</Status>
+    </Member>
+    <Member Assignee="Pedro">
+      <Date>2015-08-13</Date>
+      <Story>17287</Story>
+      <Task>17287</Task>
+      <Description></Description>
+      <Commitment>EOM</Commitment>
+      <Status>In Progress</Status>
+    </Member>
+    <Member Assignee="Leo">
+      <Date>2015-08-13</Date>
+      <Story>17287</Story>
+      <Task>17287</Task>
+      <Description></Description>
+      <Commitment>EOM</Commitment>
+      <Status>In Progress</Status>
+    </Member>
+    <Member Assignee="Berts">
+      <Date>2015-08-13</Date>
+      <Story>17287</Story>
+      <Task>17287</Task>
+      <Description></Description>
+      <Commitment>EOM</Commitment>
+      <Status>In Progress</Status>
+    </Member>
+    <Member Assignee="Mario">
+      <Date>2015-08-13</Date>
+      <Story>17287</Story>
+      <Task>17287</Task>
+      <Description></Description>
+      <Commitment>EOM</Commitment>
+      <Status>In Progress</Status>
+    </Member>
+    <Member Assignee="Rulio">
+      <Date>2015-08-13</Date>
+      <Story>17287</Story>
+      <Task>17287</Task>
+      <Description></Description>
+      <Commitment>EOM</Commitment>
+      <Status>In Progress</Status>
+    </Member>
+    <Member Assignee="Lemao">
+      <Date>2015-08-13</Date>
+      <Story>17287</Story>
+      <Task>17287</Task>
+      <Description></Description>
+      <Commitment>EOM</Commitment>
+      <Status>In Progress</Status>
+    </Member>
+  </Team>
+  <Team name="Vikings">
+    <Member Assignee="Viking1">
+      <Date>2015-08-13</Date>
+      <Story>12321</Story>
+      <Task>12321</Task>
+      <Description>none</Description>
+      <Commitment>EOD</Commitment>
+      <Status>In Progress</Status>
+    </Member>
+  </Team>
+  <Team name="Gladiators">
+    <Member Assignee="Gladiator1">
+      <Date>2015-08-13</Date>
+      <Story>99999</Story>
+      <Task>99999</Task>
+      <Description></Description>
+      <Commitment>EOM</Commitment>
+      <Status>In Progress</Status>
+    </Member>
+  </Team>
+  <Team name="Pirates">
+    <Member Assignee="Pirate1">
+      <Date>2015-08-13</Date>
+      <Story>9999</Story>
+      <Task>99999</Task>
+      <Description></Description>
+      <Commitment>EOM</Commitment>
+      <Status>In Progress</Status>
+    </Member>
+  </Team>
+  <Team name="Ninjas">
+    <Member Assignee="Ninja1">
+      <Date>2015-08-13</Date>
+      <Story>99999</Story>
+      <Task>99999</Task>
+      <Description></Description>
+      <Commitment>EOM</Commitment>
+      <Status>In Progress</Status>
+    </Member>
+  </Team>
+  <Team name="Titans">
+    <Member Assignee="Titan1">
+      <Date>2015-08-13</Date>
+      <Story>99999</Story>
+      <Task>99999</Task>
+      <Description></Description>
+      <Commitment>EOM</Commitment>
+      <Status>In Progress</Status>
+    </Member>
+  </Team>
+</Teams>

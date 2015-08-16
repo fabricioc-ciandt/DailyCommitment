@@ -1,0 +1,20 @@
+{
+  "manifest_version": 2,
+
+  "name": "TC Team Daily Commitment",
+  "description": "TC Team Daily Commitment.",
+  "version": "1.0",
+
+  "browser_action": {
+    "default_icon": "tclogo.png",
+    "default_popup": "popup.html"
+  },
+  "permissions": [
+    "activeTab",
+    "https://ajax.googleapis.com/"
+  ],
+  "content_scripts": [ {
+    "js": [ "jquery.min.js", "popup.js"],
+    "matches": [ "http://*/*", "https://*/*"]
+  }]
+}
